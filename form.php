@@ -1,5 +1,8 @@
 
 <?php
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 $to = "ejmolinax91@gmail.com";
 $subject = "Nuevo mensaje desde el formulario de contacto";
 $message = implode("\n\n", $_POST);
