@@ -34,8 +34,7 @@ $(document).ready(function() {
     $('body').vegas({
         slides: [
             { src: 'images/Logo-2023.bmp' },
-            { src: 'images/Logo-2023.bmp' },
-            { src: 'images/Logo-2023.bmp' }
+            
         ],
         timer: false,
         transition: [ 'zoomIn', ],
